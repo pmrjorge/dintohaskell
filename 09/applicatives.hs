@@ -15,3 +15,5 @@ module Applicatives where
                 concatList :: List a -> List a -> List a
                 concatList Empty as = as
                 concatList (List a as) bs = List a (concatList as bs)
+
+
